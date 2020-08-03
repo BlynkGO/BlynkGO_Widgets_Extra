@@ -1,5 +1,5 @@
 # BlynkGO_Widgets_Extra
- Widgets สำหรับ BlynkGO เพิ่มเติม
+BlynkGO Widgets เพิ่มเติม สำหรับจอ TFT 
 
 
 ## [ไลบรารี่ BlynkGO_CarSwitch](./BlynkGO_CarSwitch)

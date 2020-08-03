@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For Ultrasound
+#######################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+GCarFanSwitch	KEYWORD3
+GCarAirFlowSwitch	KEYWORD3
+GCarTempSwitch	KEYWORD3
+GCarLightSwitch	KEYWORD3
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+selected	KEYWORD2
+selected_id	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

@@ -28,8 +28,8 @@ static lv_res_t GSignal_cb(lv_obj_t *obj, lv_signal_t sign, void* param)
     GCarFanSwitch* pCarFanSW = (GCarFanSwitch*) lv_obj_get_user_data(obj);
 
     gcar_fan_sw_ext_t *ext = (gcar_fan_sw_ext_t *) pCarFanSW->ext_attr();
-    ext->knob->del();  free_widget(ext->knob);
-    ext->indic->del(); free_widget(ext->indic);
+    free_widget(ext->knob);
+    free_widget(ext->indic);
     
     if(pCarFanSW->hasLocalStyle()) {pCarFanSW->freeLocalStyle(); } //pLed->_has_localstyle = false; } // 
     pCarFanSW->_created = false;
